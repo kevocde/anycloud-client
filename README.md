@@ -1,24 +1,9 @@
-# anycloud-client
+# AnyCloud
 
-## Project setup
-```
-npm install
-```
+## AnyCloud Client
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+AnyCloud Client es el front-end para el proyecto AnyCloud el cual es de tipo SaaS, busca unir en un solo lugar múltiples servicios de almacenamiento en la nube, con el fin de hacer este almacenamiento descentralizado y más extendido.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## License
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
