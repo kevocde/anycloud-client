@@ -6,4 +6,4 @@ AnyCloud Client es el front-end para el proyecto AnyCloud el cual es de tipo Saa
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The AnyCloud is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
