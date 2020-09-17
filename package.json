@@ -1,5 +1,5 @@
 {
-  "name": "anycloud-client-2",
+  "name": "anycloud-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -36,9 +36,11 @@
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "babel-eslint",
+      "emitError": true
     },
-    "rules": {}
+    "rules": {
+    }
   },
   "browserslist": [
     "> 1%",
