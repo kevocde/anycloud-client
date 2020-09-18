@@ -7,6 +7,6 @@
 </template>
 <script>
 export default {
-    name: 'footer-component'
+    name: 'main-footer'
 }
 </script>

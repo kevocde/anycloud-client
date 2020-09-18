@@ -1,25 +1,33 @@
 <template>
   <div class="horizontalMenucontainer" id="app">
     <div id="global-loader">
-			<img src="../public/valex-theme/html/assets/img/loader.svg" class="loader-img" alt="Loader">
-		</div>
+            <img src="../public/valex-theme/html/assets/img/loader.svg" class="loader-img" alt="Loader">
+        </div>
     <div class="page">
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
+      <main-header />
+      <main-menu />
+      <div class="main-content horizontal-content">
+        <div class="container">
+          <div id="nav">
+            <router-link to="/">Home</router-link> |
+            <router-link to="/about">About</router-link>
+          </div>
+          <router-view/>
+        </div>
       </div>
-      <router-view/>
-      <footer-component></footer-component>
+      <main-footer/>
     </div>
     <a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
   </div>
 </template>
 <script>
-import FooterComponent from './components/FooterComponent.vue'
+import MainFooter from './components/MainFooter.vue'
+import MainHeader from './components/MainHeader.vue'
+import MainMenu from './components/MainMenu.vue'
 
 export default {
   name: 'app',
-  components: {FooterComponent}
+  components: {MainFooter, MainHeader, MainMenu}
 }
 </script>
 
