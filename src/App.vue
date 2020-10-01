@@ -1,8 +1,8 @@
 <template>
   <div class="horizontalMenucontainer" id="app">
     <div id="global-loader">
-            <img src="../public/valex-theme/html/assets/img/loader.svg" class="loader-img" alt="Loader">
-        </div>
+      <img src="../public/valex-theme/html/assets/img/loader.svg" class="loader-img" alt="Loader">
+    </div>
     <div class="page">
       <main-header />
       <main-menu />
